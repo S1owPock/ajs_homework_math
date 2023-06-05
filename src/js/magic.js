@@ -1,10 +1,11 @@
 export default class Magic {
   constructor() {
+    /* eslint no-underscore-dangle: 0 */
     this._attack = 100;
     this.defence = 100;
     this._stoned = false;
   }
-  
+
   get getStoned() {
     return this._stoned;
   }
